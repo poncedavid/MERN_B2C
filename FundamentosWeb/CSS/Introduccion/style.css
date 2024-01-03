@@ -1,0 +1,26 @@
+h1{
+    color: brown;
+    text-align: left;
+    text-decoration: underline;
+    font-family: cursive;
+    
+
+}
+/* selector de clase */
+.titulo-class{
+    color: blue;
+}
+
+/* selector de id */
+#titulo-id{
+    color: #3f554a;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(224, 213, 213);
+}
+
+strong{
+    color: rgb(38, 142, 90);
+}

@@ -1,0 +1,25 @@
+.titulo-sup{
+    background-color: black;
+    color: white;
+}
+.titulo-med{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.titulo-inf{
+    text-decoration: underline;
+    text-align: right;
+    margin-right: 20px;
+    
+}
+.color-azul{
+    background-color: cornflowerblue;
+}
+
+
+.resaltado{
+    color: rgb(106, 0, 213);
+}
