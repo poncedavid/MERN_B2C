@@ -23,3 +23,23 @@
 .resaltado{
     color: rgb(106, 0, 213);
 }
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.size{
+    font-size: 50px;
+}
+
+.fondo{
+    background-color: silver;
+}
+
+#negro{
+    color: black;
+}
