@@ -3,12 +3,13 @@ div{
 
     width: 100px;
     height: 100px;
-
-
-
     margin-top: 2px;
     margin-left: 20px;
     border: 8px solid black;
     padding-top: 100px;
+    display: inline-block;
+}
 
+a{
+    display: block;
 }
