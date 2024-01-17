@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+a { 
+    color: #085394; 
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top {
+    background-color: #ccc;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 3.2rem;
+}
+
+.search {
+    flex: 1;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: 0 100px;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #2b78e4;
+    color: #fff;
+}
+
+.row { 
+    display: flex; 
+}
+
+.flex-2 { 
+    flex: 2; 
+}
+
+.flex-1 { 
+    flex: 1; 
+    margin-left: 30px;
+}
+
+.box {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid #999;
+}
+
+.definition {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.left p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.like {
+    background-color: #ffd966;
+}
+
+.definition-text {
+    flex: 3;
+    margin-left: 20px;
+    font-size: 1.4rem;
+}
+
+.box h2 {
+    font-size: 1.7rem;
+}
+
+.add {
+    background-color: #93c47d;
+    width: 100%;
+    margin-top: 20px;
+}
