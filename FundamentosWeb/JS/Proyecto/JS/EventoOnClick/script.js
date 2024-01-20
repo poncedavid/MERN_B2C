@@ -1,11 +1,7 @@
-console.log("page loaded...");
 
-
-
-function message() {
+function mensaje() {
     alert("Ninja was liked!");
 }
-
 
 function login(element) {
     if(element.innerText == "Login") {
@@ -15,6 +11,6 @@ function login(element) {
     }
 }
 
-function hide(el) {
-    el.remove();
+function hide(btn) {
+    btn.remove();
 }
