@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.block {
+    height: 50px;
+    width: 200px;
+    background-color: silver;
+    border: 1px dotted black;
+}
