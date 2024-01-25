@@ -1,7 +1,6 @@
 console.log("Estamos enlazado")
 
-var likeCount =50;
-
+var likeCount = 3;
 var likeSpan = document.querySelector("#post");
 
 function like(){
