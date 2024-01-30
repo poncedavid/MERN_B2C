@@ -1,0 +1,15 @@
+div{
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+    border: dotted 2px black;
+}
+
+main{
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+    border: dotted 2px black;
+    padding-left: 100px;
+}
