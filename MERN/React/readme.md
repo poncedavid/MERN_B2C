@@ -21,3 +21,6 @@
 5. Importamos base, components y utilities en el archivo css base, aqui seria `App.css`
 
 
+## Librerias instaladas
+
+1. ```npm install react-router-dom```
