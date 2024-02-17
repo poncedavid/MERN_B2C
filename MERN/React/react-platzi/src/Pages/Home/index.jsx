@@ -1,14 +1,14 @@
 
 import './App.css'
 
-function App() {
+function Home() {
 
 
   return (
     <div className='bg-rose-500'>
-      Hola mundo 
+      Home
     </div>
   )
 }
 
-export default App
+export default Home
