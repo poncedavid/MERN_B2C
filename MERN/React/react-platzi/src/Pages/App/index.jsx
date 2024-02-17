@@ -1,7 +1,6 @@
 import { useRoutes, BrowserRouter } from "react-router-dom";
 import NavBar from "../../Components/NavBar";
-
-import './App.css'
+import { ShoppingCartProvider } from "../../Context";
 
 import Home from "../Home";
 import MyAccount from "../MyAccount";
@@ -9,6 +8,8 @@ import MyOrder from "../MyOrder";
 import MyOrders from "../MyOrders";
 import NotFound from "../NotFound";
 import SignIn from "../SignIn";
+
+import "./App.css";
 
 const AppRoutes = () => {
   let routes = useRoutes([
@@ -43,10 +44,12 @@ const AppRoutes = () => {
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <AppRoutes />
-      <NavBar />
-    </BrowserRouter>
+    <ShoppingCartProvider>
+      <BrowserRouter>
+        <AppRoutes />
+        <NavBar />
+      </BrowserRouter>
+    </ShoppingCartProvider>
   );
 };
 

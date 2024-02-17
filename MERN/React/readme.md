@@ -24,3 +24,9 @@
 ## Librerias instaladas
 
 1. ```npm install react-router-dom```
+
+## [Heroicons](https://heroicons.com/)
+
+1. npm install @heroicons/react
+2. import { BeakerIcon, ShoppingCartIcon } from '@heroicons/react/24/solid'
+3. <ShoppingCartIcon className="h-6 w-6 text-blue-500" />
