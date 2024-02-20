@@ -16,7 +16,7 @@ const ProducDetail = () => {
                 <h2 className=" font-medium text-xl"> Detail </h2>
                 <XMarkIcon 
                 onClick={()=> context.closeProductDetail()}
-                className='h-6 w-6 text-black'></XMarkIcon>
+                className='h-6 w-6 text-black cursor-pointer'></XMarkIcon>
             </section>
 
             <figure className="px-6">
